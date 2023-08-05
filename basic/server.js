@@ -1,7 +1,7 @@
 
 const
     {Server} = require("socket.io"),
-    server = new Server(8000);
+    server = new Server(8080);
 
 let
     sequenceNumberByClient = new Map();

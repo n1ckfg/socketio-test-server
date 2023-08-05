@@ -4,7 +4,7 @@ const
     express = require("express"),
     socketio = require("socket.io");
 
-const SERVER_PORT = 3000;
+const SERVER_PORT = 8080;
 
 let nextVisitorNumber = 1;
 const onlineClients = new Set();
